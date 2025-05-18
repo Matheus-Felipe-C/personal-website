@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-        
+        <h1>Work in progress, please be patient</h1>
     </>
   )
 }
