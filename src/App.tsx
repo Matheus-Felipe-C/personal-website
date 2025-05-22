@@ -33,10 +33,9 @@ function App() {
                     <button className='primary-btn'>Resume</button>
                 </div>
                 <div className="hero-socials">
-                    <a className='social-btn' href=""><img src={githubLogo} alt="GitHub Logo" /></a>
-                    <a className='social-btn' href=""><img src={linkedinLogo} alt="LinkedIn logo" /></a>
-                    <a className='social-btn' href=""><img src={emailLogo} alt="email logo" /></a>
-                    <a className='social-btn' href=""><img src={substackLogo} alt="substack logo" /></a>
+                    <a className='social-btn' href="https://github.com/Matheus-Felipe-C" target='_blank'><img src={githubLogo} alt="GitHub Logo" /></a>
+                    <a className='social-btn' href="https://www.linkedin.com/in/matheus-felipe-dev/" target='_blank'><img src={linkedinLogo} alt="LinkedIn logo" /></a>
+                    <a className='social-btn' href="https://www.productiveprocrastination.dev/" target='_blank'><img src={substackLogo} alt="substack logo" /></a>
                 </div>
             </section>
         </main>

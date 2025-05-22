@@ -52,19 +52,27 @@ nav {
 }
 
 .social-btn {
-    margin: 10px;
+    margin: 1.3em 0.5em;
     background-color: var(--platinum);
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     text-decoration: none;
+    transition: scale 0.2s ease, translate 0.2s ease;
 } 
 
+.social-btn:hover {
+    scale: 1.1;
+    translate: 0 -3px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
 .social-btn img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
